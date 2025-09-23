@@ -82,13 +82,23 @@ La plataforma incluye:
 
 ## 🛠️ Tech Stack
 
-Frontend: React, JavaScript, SASS/CSS
+- **Frontend:** React.js, Vite, CSS3
 
-Backend: Node.js, Express
+- **Backend:** Node.js, Express.js
 
-Database: MySQL
+- **Database:** MySQL
 
-Other: PWA, PDF generation, Excel export/import
+- **Authentication:** JWT
+
+- **File Handling:** Multer (para imágenes/productos)
+
+- **PDF:** Generación de facturas en checkout
+
+- **Excel:** Reportes y carga masiva de productos
+
+- **PWA:** Instalación en dispositivos (modo App)
+
+- **Admin Panel:** Gestión de usuarios, productos, publicidad, reportes
 
 ---
 
