@@ -95,13 +95,13 @@ The final product became a fully functional SaaS-like platform, optimized for di
 
 ---
 
-## 📈 Future Improvements
+## 📈 Learnings & Insights
 
-- ☁️ Cloud-based deployment for scaling across regions
-- 📱 Mobile-first dashboard for administrators
-- 🔄 Real-time stock synchronization across multiple warehouses
-- 💳 Integration with local payment gateways
-- 🌐 Expansion for multi-country support
+- Multi-client SaaS platforms benefit from dynamic catalog and pricing structures per user type
+- PDF invoice generation and Excel reporting improve operational efficiency for distribution
+- Role-based access control ensures data integrity and reduces operational errors
+- Integrating frontend and backend features mid-project requires careful planning for consistent UX
+- PWA support and responsive design enhance usability for both mobile and desktop users
 
 ---
 
