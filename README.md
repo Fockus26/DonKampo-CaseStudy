@@ -6,39 +6,95 @@ A case study of a wholesale and distribution SaaS built for multi-client commerc
 
 ## 🌍 Overview
 
-DonKampo provides an integrated solution for distribution companies and their clients in Colombia.  
+DonKampo was developed as a custom commerce and distribution platform designed for both B2B and B2C operations.
 
-The platform supports different customer types (households, restaurants, produce shops, supermarkets), each with personalized access to products and prices.  
+The system allows clients to:
+
+Register and log in based on their business type
+
+Search and browse tailored product catalogs
+
+View product variations (and sub-variations)
+
+Manage shopping carts and complete checkout
+
+Review their order history
+
+Download invoices as PDFs
+
+Export their order records to Excel
+
+Admins have access to a dedicated dashboard for managing users, orders, sales, commissions, shipping costs, and product catalogs — all with visual reports and Excel exports.
 
 ---
 
 ## ✨ Features
 
-- 👥 Multi-client user roles (households, restaurants, produce shops, supermarkets)  
-- 💰 Dynamic pricing & product availability based on client type  
-- 🛒 Cart management with adjustable quantities before checkout  
-- 📄 Automatic PDF invoice generation and order tracking  
-- 📲 PWA installation on mobile & desktop  
-- 📊 Admin dashboard with:  
-  - User statistics by type  
-  - Sales reports (Excel export + bar chart visualization)  
-  - Adjustable shipping costs per client type  
-  - Advertising management (CRUD for ads)  
-  - Product management with Excel import/export for mass updates  
+### 🧑‍🤝‍🧑 Client-Side
+
+- 👤 Multi-client registration & login (household, restaurant, fruver, supermarket)
+- 🔍 Product search and filtering
+- 🧩 Product variations and nested variations
+- 🛒 Shopping cart and checkout page
+- 💰 Dynamic pricing per client type
+- 📄 PDF invoice generation for every order
+- 📊 Order history with Excel export
+- 🧾 Editable user profile and order tracking
+- 📲 PWA support (installable on mobile & desktop)
+
+### 🛠 Admin Dashboard
+
+- 🧍‍♂️ User management by client type (with user counts & email view)
+- 📦 Full product management (create, edit, delete)
+- ⬆️ Bulk product import/update via Excel
+- 📉 Sales reporting with charts and Excel export
+- ⚙️ Configurable shipping commissions per client type
+- 📢 Advertising campaign management (create, edit, delete)
+- 💼 Role-based access and modular navigation
+
+---
+
+## 📸 Showcase
+
+### 🏠 Homepage
+
+![Home](./assets/screenshots/Home.png)
+
+### 🔐 Register / Login
+
+![Register](./assets/gifs/Register.gif)
+![Login](./assets/screenshots/Login.png)
+
+### 🛒 Ordering
+
+![Ordering](./assets/gifs/Ordering.gif)
+
+### 🛍 Checkout
+
+![Checkout](./assets/gifs/Checkout.gif)
+
+### 📃 Order
+
+![Order](./assets/screenshots/Order.png)
+![Orders](./assets/screenshots/Orders.png)
+
+### ⚡ PWA
+
+![PWA](./assets/gifs/PWA.gif)
 
 ---
 
 ## 🛠 Tech Stack
 
-- **Frontend:** React.js, Vite, CSS3  
-- **Backend:** Node.js, Express.js  
-- **Database:** MySQL  
-- **Authentication:** JWT  
-- **File Handling:** Multer (images & products)  
-- **PDF:** Invoice generation at checkout  
-- **Excel:** Reporting & product import/export  
-- **PWA:** Mobile/desktop installation mode  
-- **Admin Panel:** Full management of users, products, ads, and reports  
+- **Frontend:** React.js, Vite, CSS3
+- **Backend:** Node.js, Express.js
+- **Database:** MySQL
+- **Authentication:** JWT
+- **File Handling:** Multer (images & products)
+- **PDF:** Invoice generation at checkout
+- **Excel:** Reporting & product import/export
+- **PWA:** Mobile/desktop installation mode
+- **Admin Panel:** Full management of users, products, ads, and reports
 
 ---
 
@@ -70,12 +126,6 @@ server/
  └── web/
      └── index.ejs
 ```
-
----
-
-## 📸 Showcase
-
-_(Screenshots, GIFs or demo videos can be added here)_
 
 ---
 
